@@ -1,0 +1,140 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h5 {
+  font-weight: bold;
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bg-header {
+  background: url('img/banner2.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.749);
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.pasos {
+  background-color: #103f71;
+  color: #ffffff;
+  padding: 50px;
+  margin: 1px;
+  max-width: auto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.pasos h5 i {
+  font-size: 1.5rem;
+  color: #f1c40f; 
+  margin-right: 10px; 
+  vertical-align: top;
+}
+
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card .card-img {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-card .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .card-overlay {
+  opacity: 1;
+}
+
+.project-card .card-overlay h5 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.project-card .card-overlay button {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 0.9rem;
+  background-color: #3d3d3d;
+  color: #ddd;
+}
+
+footer a {
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #f1c40f;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: rgb(48, 8, 248);
+}
